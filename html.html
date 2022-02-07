@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Cars18.com</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> -->
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css"/>
+
+
+  </head>
+  <body>
+    <div class="text-white" >
+      <div class="text-danger m-4"><h3>Cars18.com </div>
+
+      <nav class="navbar navbar-expand-sm bg-secondary navbar-dark ml-5">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active "  href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <button class="nav-link"  id="aboutButton" onclick="scrollToDiv(id)">ABOUT</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav-link" id="servicesButton" onclick="scrollToDiv(id)">SERVICES</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav-link" id="testimonialsButton" onclick="scrollToDiv(id)">TESTIMONIALS</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav-link" id="portfolioButton" onclick="scrollToDiv(id)">PORTFOLIO</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav-link" id="contactsButton" onclick="scrollToDiv(id)">CONTACTS</button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="position-relative">
+        <div class="header">
+            <h1 class="m-5">WELCOME TO <br> <span class="text-danger"><h2>Cars18.com</h2></span></h1>
+      </div></div>
+      <div class="text-center">
+        <h1 class="mt-5 text-danger">OUR TOP DEALERSHIPS</h1>
+       <div class="d-flex justify-content-center">
+        <hr class="d-flex justify-content-center red-line"/>
+       </div>
+       <div class="d-flex justify-content-center">
+        <p class="text-dark m-5 text-center width-50-percent" >
+          We're your one-stop for buying a new car for you. Get matched to your perfect car and buy one swiftly.<br>
+          We have Cars like Tesla, Bmw, Ferrari, Ford, Porsche, Honda, Lamborghini, Toyota, Bently, Audi and many more....
+        
+          </p>
+       </div>
+      </div>
+
+      <br />
+      <div class="container d-flex justify-content-around mb-5">
+        <div>
+          <div class="card bg-secondary m-5 leader-box">
+<img src="./lambo.jpg"/>
+          </div>
+          <div class="mt-5 text-center text-dark mb-4">LAMBORGHINI</div>
+          <div class="mt-2 text-center m-5 text-dark">
+            Lamborghini is an Italian brand and manufacturer of luxury sports cars and SUVs based in Sant'Agata Bolognese. The company is owned by the Volkswagen Group through its subsidiary Audi.
+          </div>
+        </div>
+
+        <div>
+          <div class="card bg-secondary m-5 leader-box">
+            <img src="./bmw.jpg"/>
+          </div>
+          <div class="mt-5 text-center text-dark mb-4">BMW</div>
+          <div class="mt-2 text-center m-5 text-dark">
+            Bmw was formed in 1916. BMW is a German multinational corporate manufacturer of luxury vehicles and motorcycles headquartered in Munich, Bavaria, Germany.
+          </div>
+        </div>
+
+        <div>
+          <div class="card bg-secondary m-5 leader-box">
+            <img src="./porsche.jpg"></image>
+          </div>
+          <div class="mt-5 text-center text-dark mb-4">PORSCHE</div>
+          <div class="mt-2 text-center m-5 text-dark">
+            Porsche is a German automobile manufacturer specializing in high-performance sports cars, headquartered in Germany. The company is owned by Volkswagen AG, a controlling stake of which is owned by Porsche Automobil Holding SE.
+          </div>
+        </div>
+      </div>
+
+      <br />
+      <div class="container-fluid bg-secondary">
+        <div class="container d-flex justify-content-around mt-5 mb-5">
+          <div class="mt-5 mb-5">
+            <h1 class="text-warning">2500</h1>
+            <div>Lamborghini sold till date</div>
+          </div>
+
+          <div class="mt-5 mb-5">
+            <h1 class="text-warning">300</h1>
+            <div>Bmw sold till date</div>
+          </div>
+
+          <div class="mt-5 mb-5">
+            <h1 class="text-warning">120</h1>
+            <div>Porsche sold till date</div>
+          </div>
+
+          <div class="mt-5 mb-5">
+            <h1 class="text-warning">30</h1>
+            <div>Rolls-Royce sold till date</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center" id="servicesSection">
+      <br /> <br /> <br /> <br />
+      <h1 class="mt-5 text-danger">OUR SERVICES</h1>
+     <div class="d-flex justify-content-center">
+     </div>
+     <div class="d-flex justify-content-center">
+      <p class="text-dark m-5 text-center width-80-percent">
+        Start your exclusive journey with us in: Canada, USA, Australia, China, India, Japan, Singapore, France, Germany, Italy, Monaco, Russia, Switzerland, UAE, United Kingdom.
+         Cars18.com operates all over the world with over 150 assistance centers in more than 54 countries to provide you with total support whenever and wherever you need it. 
+
+      </p>
+     </div>
+    </div>
+
+    <br /> <br /> <br /> <br /> <br />
+
+    
+
+    <div class="container-fluid background-green" id="contactsSection">
+      <div class="text-center"><br><br><br>
+        <h1 class="mt-5 text-danger">CONTACT US</h1><br><br>
+        <div class="mt-2 text-center m-5 text-white">
+          Cars18.com is pleased to assist you with an attentive multi-channel service: 
+          You can ask your questions to the Cars18.com Assistant, who will guide you through the Lamborghini world.
+          <br> In this section, you can write to us for any request or support needed.. Fill in the form and we will be glad to manage your request at the soonest.
+        </div>
+    <form>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="inputName4"></label>
+          <input type="name" class="form-control custom-input" id="inputName4" placeholder="Name">
+        </div>
+        <div class="form-group">
+          <label for="inputCategory4"></label>
+          <select type="select" class="form-control custom-input" id="inputCategory4" placeholder="Category">
+            <option value="option1">Category 1</option>
+            <option value="option2">Category 2</option>
+            <option value="option3">Category 3</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="inputPhone"></label>
+          <input type="phone" class="form-control custom-input" id="inputPhone" placeholder="Phone">
+        </div>
+        <div class="form-group">
+          <label for="inputCity"></label>
+          <select type="select" class="form-control custom-input" id="inputCategory4" placeholder="Category">
+            <option value="option1">City 1</option>
+            <option value="option2">City 2</option>
+            <option value="option3">City 3</option>
+          </select>
+        </div>
+      </div>
+      
+        <div class="form-group">
+          <label for="inputEmail"></label>
+          <input type="email" class="form-control custom-input" id="inputemail" placeholder="E-mail">
+        </div>
+        <div class="form-group">
+          <label for="inputMessage"></label>
+          <!-- <input type="email" class="form-control" id="inputemail" placeholder="email"> -->
+          <textarea name="message" class="form-control custom-input" id="message" cols="30" rows="5" placeholder="Message"></textarea>
+        </div>
+        <div class="d-flex my-4" >
+          <button type="button" class="btn btn-danger contact-button">Contact Us</button>
+        </div>
+        </div><br>
+    </form>
+    </div>
+    </div>
+
+    <div class="text-center" id="portfolioSection">
+      <br /> <br /> <br /> <br />
+      <h1 class="mt-5 text-danger">OUR PORTFOLIO</h1>
+     <div class="d-flex justify-content-center">
+     </div>
+     <div class="d-flex justify-content-center">
+      <p class="text-dark m-5 text-center width-80-percent">
+        Cars18.com is a next generation ecommerce platform for buying cars. We provide the best in class experience for car buyers by offering a wide assortment of certified cars .
+        Buying a new car sometimes is not an easy task, it requires hours of browsing, multiple test drives and weeks before finding the right one. But with us, it is as simple as browsing through thousands of certified cars and reserving your favorite one by paying a refundable deposit.
+
+        </p>
+     </div>
+    </div>
+
+    <div class="about-us" id="aboutSection">
+      <div class="d-flex flex-md-row flex-sm-column">
+        <div class="about-left col-md-6 col-sm-12 mx-md-1 my-sm-1">
+          <img src="logo.jfif"/>
+        </div>
+        <div class="about-right col-md-6 col-xs-12 mx-md-1 my-sm-1">
+          <div class="text-center">
+            <h1 class="mt-4 ">ABOUT US</h1>
+           <div class="d-flex justify-content-center">
+            <p class=" text-center mb-4 width-80-percent">
+              We provide the best service in the World.
+            </p>
+            
+           </div>
+           <div class="d-flex about-points">
+            <div>
+              <div class="circle"><img class="circle" src="hands.jpg"/></div>
+              <div class="line"></div>
+              <div class="label p-1 px-2">FRIENDLY TEAM</div>
+            </div>
+            <div>
+              <div class="circle"><img class="circle" src="involved.jpg"/></div>
+              <div class="line"></div>
+              <div class="label p-1 px-2">INVOLVED</div>
+            </div>
+            <div>
+              <div class="circle"><img class="circle" src="assistant.png"/></div>
+              <div class="line"></div>
+              <div class="label p-1 px-2">24/7 ASSISTANCE</div>
+            </div>
+          </div>
+           </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center">
+      <h1 class="mt-5 text-danger">OUR GALLERY</h1>
+     <div class="d-flex justify-content-center">
+     </div>
+     <div class="d-flex justify-content-center">
+      <p class="text-dark m-5 text-center width-80-percent">
+          Here are some of our cars that we sell.. 
+        </p>
+     </div>
+    </div>
+    <div class="wrapperr">
+      <div class="carousell">
+        <div><img src="lambo.jpg"></div>
+        <div><img src="merc.jpg"></div>
+        <div><img src="bentle.jpg"></div>
+        <div><img src="asta.jpg"></div>
+        <div><img src="gtr.jpg"></div>
+        <div><img src="bugatti.jpg"></div>
+      </div>
+    </div>
+
+    <div class="text-center" id="testimonialsSection">
+      <br /> <br /> <br /> <br />
+      <h1 class="mt-5 text-danger">PLEASE PROVIDE US FEEDBACK </h1>
+     <div class="d-flex justify-content-center">
+     </div>
+     <div class="d-flex justify-content-center">
+      <p class="text-dark m-5 text-center width-80-percent">
+          <input type="text" class="inn"/><br>
+          <br>
+          <br>
+          
+            <button type="submit" class="bttn" >Submit</button>
+          
+        </p>
+     </div>
+    </div>
+
+    <div class="footer py-4 px-5 flex-row d-flex">
+      <div class="footer-list">
+        CONTENT<br/><br/>
+        Some content<br/>
+        Is here....
+      </div>
+      <div class="footer-list">
+        INFORMATION<br/><br/>
+        Some Information<br/>
+        Is here.....
+      </div>
+      <div class="footer-list">
+        LEGAL<br/><br/>
+        Some of<br/>
+        the legal <br/>
+        Rights is here...
+      </div>
+      <div class="footer-list">
+        HELP<br/><br/>
+        Lorem ipsum<br/>
+        Dolor sit
+      </div>
+      <div class="footer-list">
+        <div class="d-flex">
+          <div class="mt-2">
+            <i class="fa fa-phone"></i>
+          </div>
+          <div class="small m-3 mt-0">
+            +91-99xxxxxxxx80 <br/>
+          </div>
+        </div>
+        <div class="d-flex">
+          <div class="mt-2">
+            <i class="fa fa-map-marker"></i>
+          </div>
+          <div class="small m-3 mt-0">
+            67700 Dagenham st<br/>
+            England, GB
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-dark d-flex p-4 px-5">
+      <div class="footer-left">
+        Copyright <i class="fa fa-copyright"></i> 2021 Cars18.com All rights reserved.
+      </div>
+      <div class="footer-right d-flex">
+        <button><i class="fa fa-google-plus"></i></button>
+        <button><i class="fa fa-twitter"></i></button>
+        <button><i class="fa fa-instagram"></i></button>
+        <button><i class="fa fa-facebook"></i></button>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script> -->
+    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+    <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+    <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
+
+    <script src="script.js"></script>
+    <script>
+      const scrollToDiv = (e) => {
+        const divId = e.substring(0,e.length - 6) + "Section";
+        var f = document.getElementById(divId)
+        f.scrollIntoView();
+      };
+      $(function(){
+        $("button.bttn").on("click",function(){
+          alert("Thankyou for providing feedback...")
+        });
+
+      });
+    </script>
+  </body>
+</html>
